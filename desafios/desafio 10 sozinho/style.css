@@ -1,0 +1,142 @@
+@font-face {
+    font-family:'idroid';
+    src: url(fontes/idroid.otf) format(OpenType)
+}
+
+body{
+    background-color: rgb(200, 233, 248);
+    margin: 0;
+    font-family: arial;
+
+
+}
+
+
+
+header{
+    background-image: linear-gradient(to bottom,#5f9ae7b4, #0077ff86,  #003cffab ,#3337ff);
+
+    margin: 0px;
+    padding: 30px;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: -15px -1px 13px 3px #000000a3;
+
+}
+
+nav > a {
+    text-align: left;
+    text-decoration: none;
+    color: rgb(235, 252, 249);
+}
+nav > a:hover{
+    color: rgb(0, 0, 255);
+    text-decoration:solid;
+}
+
+main{
+    width: 80%;
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 1px -2px 9px 2px #0000005b;
+    
+    background-color: rgb(255, 255, 255);
+}
+
+main > section > h1{
+    font-family: 'idroid';    
+    background-color: #7e9fe760;
+    color: rgb(19, 41, 245);
+    margin-left: 20px;
+}
+
+main > section > p{
+    
+    text-indent: 35px;
+}
+
+.negrito{
+    background-color: rgba(96, 170, 255, 0.678);
+}
+
+picture  {
+    display: block;
+    margin: 0 auto;
+}
+
+.bugdroid{
+    display: block;
+    margin: 0 auto;
+}
+
+
+.historia > h1 {
+    background-color: white;
+    font-family: 'idroid';
+    text-align: left;
+
+}
+
+.video{
+    background-color: #5bb5ff;
+    text-align: center;
+    padding: 35px;
+    display: block;
+    margin: 0 auto;
+}
+
+.cabeçalho2{
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-color: rgb(0, 60, 255);
+    border-radius: 20px 20px 0px 0px;
+    color: white;
+
+    width: 100%;
+    height: 25px;
+
+    margin-bottom: 0px;
+    padding-top: 10px;
+    
+}
+
+.boxlista {
+    background-color: #c3c9ff;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.boxlista > p {
+
+    margin-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.boxlista > p > a {
+    text-decoration: none;
+    color: rgb(0, 26, 255);
+}
+.boxlista > p > a:hover{
+    color: rgb(41, 94, 209);
+}
+
+.listas {
+    display: flex;
+}
+
+.direita{
+    padding-left: 15%;
+}
+
+
+footer > p{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(49, 35, 247);
+    color: white;
+    text-align: center;
+    padding: 0px;
+    margin: 20px 0px 0px 0px;
+}

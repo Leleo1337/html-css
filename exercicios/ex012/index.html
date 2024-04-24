@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com html5</title>
+</head>
+<body>
+    <h1>inserindo videos hospedados localmente</h1>
+    <p>este video está hospedado no meu proprio servidor</p>
+      <!-- <video src="midia/meu-video.mp4" width="500" autoplay    loop controls ></video> -->
+    <video controls poster="thumb (nao tenho)" width="500"> 
+        <source src="midia/meu-video.mp4" type="mp4">
+        <source src="midia/meu-video.mp4" type="video/mp4">
+        <p>seu navegador não consegue carregar este video</p>
+    </video>
+    <h1>inserindo videos do youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/IaRYwEECq-E?si=TEjnVuzd33Gn62jg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <h1>Inserindo videos do Vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/914803716?h=da3c8b9417&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>   
+</body>
+</html>

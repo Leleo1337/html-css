@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em html5</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>tente abrir este site em varios dispositivos diferentes ou simplesmente aumente ou diminua o tamanho de seu navegador</p>
+    <h2>AS ORDENS DAS FOTOS ESTÃO ERRADAS, ERREI FUI MLK</h2>
+    <p>Tamanhos:</p>
+    <ul type="square">
+        <li>M = Imagem grande</li>
+        <li>G = Imagem media</li>
+        <li>P = Imagem pequena</li>
+    </ul>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png">
+        <source media="(max-width: 1050px)"  srcset="imagens/foto-g.png">
+        <img src="imagens/foto-m.png" alt="imagem flexivel">
+    </picture>
+
+    <h2>Reproduzindo audio</h2>
+    <p>vamos arender a reproduzir audios em html5</p>
+    <!--<audio src="midia/videoplayback (online-video-cutter.com).mp4" controls ></audio> 
+    --->
+    <audio preload="metadata" controls>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midia/guanacast-33.ogg" type="audio/mpeg">
+        <source src="midia/guanacast-33.wave" type="audio/mpeg">
+        <p>infelizmente seu navegador não consegue reproduzir audio. clique <a href="midia/guanacast-33.mp3">aqui</a> para baixar o arquivo mp3</p>
+    </audio>
+</body>
+</html>
