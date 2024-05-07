@@ -91,3 +91,21 @@ footer a:hover{
     text-decoration: underline;
 }
 
+@media (max-width: 500px){
+
+
+    #img1{
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding: 20px;
+        
+    }
+    #img2{
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding: 20px;
+        
+    }
+
+
+}
