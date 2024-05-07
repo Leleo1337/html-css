@@ -58,6 +58,7 @@ section p {
     padding: 50px;
     margin-top: 120px;
     background-attachment: fixed;
+    background-size: cover;
 }
 
 #img2{
@@ -66,6 +67,7 @@ section p {
     padding: 50px;
     margin-top: 120px;
     background-attachment: fixed;
+    background-size: cover;
 }
 
 #transparente{
