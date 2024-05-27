@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Exemplo de formulario</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <p>
+            <label for="iest">Estado</label>
+            <select name="estado" id="iest">
+                <optgroup label="Regiao sul">
+                    <option value="PR">parana</option>
+                    <option value="RJ">Santa catarina</option>
+                    <option value="RS">Rio grande do sul</option>
+                </optgroup>
+                <optgroup label="regiao nordeste"> 
+                    <option value="a">AA</option>
+                    <option value="a">AA</option>
+                    <option value="a">AA</option>
+                </optgroup>
+
+            </select>
+        </p>
+
+        <p>
+            <label for="iprof">Profissao</label>
+            <input type="text" name="prof" id="iprof" list="lstprof">
+            <datalist id="lstprof">
+                <option value="ADM">administrador</option>
+                <option value="DEV">desenvolvedor</option>
+                <option value="PROF">professor</option>
+            </datalist>
+        </p>
+
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="resetar">
+        </p>
+    </form>
+</body>
+</html>
