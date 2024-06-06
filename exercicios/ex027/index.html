@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/mediaqueries.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <main>
+        <section>
+            <div class="imagem">
+                <!--imagem do fundo de cima! -->
+            </div>
+            <div class="form-container">
+                    <h1>Login</h1>
+                    <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+               
+                    <form action="cadastro.php" autocomplete="on" method="post">
+                        <div class="parte">
+                            <span class="material-symbols-outlined">person</span>
+                            <label for="inome"></label>
+                            <input type="email" name="nome" id="inome" placeholder="seu e-mail" autocomplete="email" required>
+                        </div>
+
+                        <div class="parte">
+                            <span class="material-symbols-outlined">key</span>
+                            <label for="isenha"></label>
+                            <input type="password" name="senha" id="isenha" autocomplete="current-password" placeholder="sua senha" minlength="8" required>
+                        </div>
+                        <div class="botaos">
+                            <input type="submit" value="enviar">
+                            <a href="esqueci.html">Esqueci minha senha</a>
+                        </div>
+                    </form>
+                </div>
+            </section>
+    </main>
+</body>
+</html>
