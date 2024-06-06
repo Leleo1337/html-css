@@ -21,8 +21,21 @@ header > h1{
     text-align: center;
 }
 
-nav{
+i#burger{
     display: block;
+    color: white;
+    text-align: center;
+    background-color: rgb(46, 46, 46);
+    padding: 10px;
+    cursor: pointer;
+}
+i#burger:hover{
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+
+nav{
+    display: none;
     background-color: rgb(77, 77, 77);
 }
 
@@ -61,4 +74,5 @@ article > p {
     margin-bottom: 10px;
     text-indent: 20px;
 }
+
 
