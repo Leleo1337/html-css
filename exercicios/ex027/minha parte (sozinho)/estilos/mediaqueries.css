@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+
+
+@media screen and (min-width: 768px) {
+    body{
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+
+    section{
+        width: 80vw;
+        height: 300px;
+        padding: 1px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    p{
+        padding: 0px;
+        margin-left: 15px;
+    }
+
+    .imagem{
+        width: 35vw;
+        height: 101%;
+        border-radius: 20px 0px 0px 20px;
+    }
+
+    .botaos input{
+        width: 95%;
+        padding: 1px;
+    }
+
+    .botaos > a{
+        width: 95%;;
+    }
+
+    .parte{
+        width: 95%;
+        padding: 0px;
+    }
+    .parte > input{
+        width: 95%;
+        height: 30px;
+    }
+}
+
+@media screen and (min-width:992px) {
+
+
+    section{
+        width: 950px;
+        height: 350px;
+        padding: 1px;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+    h1{
+        font-size: 2em;
+    }
+    p{
+        font-size: 1em;
+        padding-top: 10px;
+    }
+    form{
+        padding-top: 20px;
+    }
+
+    .imagem{
+        width: 85%;
+        height: 101%;
+        border-radius:0px 20px 20px 0px;
+    }
+    .parte > input{
+        width: 411px;
+        padding: 18px;
+    }    
+
+}
